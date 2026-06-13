@@ -3,9 +3,9 @@ name: Simple CI
 on: push
 
 jobs:
-build:
-runs-on: Ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-steps:
- - name: Print Message
- run: echo "CI pipeline running"
+    steps:
+      - name: Print Message
+        run: echo "CI pipeline running"
